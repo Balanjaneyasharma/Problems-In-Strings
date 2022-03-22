@@ -17,13 +17,13 @@ public:
                 arr[i][s[j]-97]+=1;
             }
         }
-        for(int i=0;i<words.size();i++){
+        /*for(int i=0;i<words.size();i++){
             for(int j=0;j<26;j++){
                 cout<<arr[i][j]<<" ";
             }
             cout<<endl;
-        }
-        //int pos=0;
+        }*/
+        
         for(int j=0;j<26;j++){
             if(arr[0][j]!=0)
             {
